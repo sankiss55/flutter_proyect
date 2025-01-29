@@ -2,10 +2,4 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: |
-      sudo apt update && sudo apt upgrade -y
-      sudo apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-11-jdk
-      git clone https://github.com/flutter/flutter.git -b stable
-      export PATH="$PATH:/workspace/flutter/bin"
-      export FLUTTER_ROOT=/workspace/flutter
   - command: flutter doctor
