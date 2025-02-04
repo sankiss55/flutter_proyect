@@ -1,6 +1,0 @@
-image:
-  file: .gitpod.Dockerfile  # Usamos un Dockerfile personalizado
-
-tasks:
-  - init: bash .gitpod/setup.sh  # Ejecuta el script de instalación
-
